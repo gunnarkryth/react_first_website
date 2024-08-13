@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #636363;
+  padding: 0;
+  overflow-y: scroll;
+}
+body #root {
+  position: relative;
+  box-shadow: 0 0 1rem;
+  background-color: #ffffff;
+  width: 50%;
+  height: 100vh;
+  overflow-y: hidden;
+}
+body #root header h1 {
+  color: red;
+}
+body #root header nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #c7efff;
+}
+body #root header nav ul {
+  list-style: none;
+}
+body #root header nav ul li a {
+  color: #000000;
+  text-decoration: none;
+}
+body #root footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #c7efff;
+}/*# sourceMappingURL=App.css.map */

@@ -1,10 +1,13 @@
 import { Nav } from "./Nav";
 
-export const Header = () => {
+export const Header = (props) => {
   return (
     <>
       <header>
-        <Nav></Nav>
+        <Nav />
+        <h1>
+          {props.title}
+        </h1>
       </header>
     </>
   );
