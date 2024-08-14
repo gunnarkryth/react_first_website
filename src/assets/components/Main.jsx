@@ -1,3 +1,6 @@
+import from 
 export const Main = () => {
-  return <main></main>;
+  return (<main>
+
+  </main>)
 };
